@@ -1,0 +1,110 @@
+@charset "UTF-8";
+/*
+Theme Name: Liquitous-theme
+Author: Lyapunov Aketa
+Description: 
+Version: 2019.5.10
+*/
+
+/*
+目次とか色々（前回の反省点を踏まえて）
+1	全体
+2	headerとfooter関係
+3	home関係
+*/
+
+/*-----1 全体構造-----*/
+
+body	{margin: 0;
+	font-family: "游ゴシック", YuGothic, 'メイリオ', 'Hiragino Kaku Gothic Pro', sans-serif;
+	line-height: 1.5}
+a, a:visited {text-decoration: none;
+	color:#2288bb;}
+a:hover {
+	text-decoration: underline;
+	color:#ff8620;
+}
+
+/*-----2 header&footer-----*/
+.headerlogo img {
+	width: 25%;
+	height: auto;
+	margin-left: 20px;
+	margin-top: 5px;
+	margin-bottom: 5px;
+	margin-right: 10px;
+}
+
+/*-----2 header&footer-----*/
+.topphoto img {
+	width: 100%;
+	height: auto;
+}
+.vision-out {
+	width: 100%;
+	position: relative;
+}
+.vision {
+	width: 75%;
+	height: auto;
+	margin: auto;
+	text-align: center;
+}
+.photo_center {
+	text-align: center;
+}
+.photo_center img {
+	width: 75%;
+	height: auto;
+}
+.photo_center2 {
+	text-align: center;
+}
+.photo_center2 img {
+	width: 40%;
+	height: auto;
+}
+.space-20 {
+	height: 20px;
+}
+.vision decotext {
+	color: #66baff;
+	font-size: 20pt;
+}
+.vision decotext2 {
+	font-size: 18pt;
+	line-height: 300%;
+}
+.vision decotext3 {
+	font-size: 12pt;
+	padding-top: 10px;
+	line-height: 200%;
+}
+.vision decotext4 {
+	font-size: 14pt;
+	padding-top: 10px;
+	line-height: 250%;
+}
+.vision table {
+	margin: 0px auto;
+}
+.vision table tr td {
+	text-align: center;
+}
+.introphoto1 {
+	display: inline-block;
+	width: 25%;
+	height: auto;
+}
+
+.introphoto1 img {
+	width: 100%;
+}
+.introphoto2 {
+	display: inline-block;
+	width: 25%;
+	height: auto;
+}
+.introphoto2 img {
+	width: 100%;
+}
